@@ -1,0 +1,155 @@
+workable assignment
+├─ .git
+│  ├─ COMMIT_EDITMSG
+│  ├─ config
+│  ├─ description
+│  ├─ FETCH_HEAD
+│  ├─ HEAD
+│  ├─ hooks
+│  │  ├─ applypatch-msg.sample
+│  │  ├─ commit-msg.sample
+│  │  ├─ fsmonitor-watchman.sample
+│  │  ├─ post-update.sample
+│  │  ├─ pre-applypatch.sample
+│  │  ├─ pre-commit.sample
+│  │  ├─ pre-merge-commit.sample
+│  │  ├─ pre-push.sample
+│  │  ├─ pre-rebase.sample
+│  │  ├─ pre-receive.sample
+│  │  ├─ prepare-commit-msg.sample
+│  │  ├─ push-to-checkout.sample
+│  │  ├─ sendemail-validate.sample
+│  │  └─ update.sample
+│  ├─ index
+│  ├─ info
+│  │  └─ exclude
+│  ├─ logs
+│  │  ├─ HEAD
+│  │  └─ refs
+│  │     ├─ heads
+│  │     │  └─ main
+│  │     └─ remotes
+│  │        └─ origin
+│  │           └─ main
+│  ├─ objects
+│  │  ├─ 09
+│  │  │  └─ d05ad6938ff1f1caf2184958adb154adc7eba9
+│  │  ├─ 13
+│  │  │  └─ 787162f12abd24311efd471efd907adc13baad
+│  │  ├─ 33
+│  │  │  └─ 2cae8081b91e523491fe63ef0b757475544e87
+│  │  ├─ 35
+│  │  │  └─ 739b5f57b30b4a27cff502db9818ef6896e63f
+│  │  ├─ 38
+│  │  │  └─ 9d2fef3770688dbb6e4f3c515eb5d9b291e835
+│  │  ├─ 3f
+│  │  │  └─ d685b2ffb7e3aeb4bc35e14c7ea66c73497981
+│  │  ├─ 47
+│  │  │  └─ d3784bb7ba6503f294ab379a103b4b59a95d1b
+│  │  ├─ 48
+│  │  │  └─ edbb093bd01ed4f26406430a93c9501a51e4e2
+│  │  ├─ 4c
+│  │  │  └─ f00d1272e2c589df775a5e18c02883e3955336
+│  │  ├─ 4d
+│  │  │  └─ 48b460b0df680cdb7ce38de4e591b03ca9012e
+│  │  ├─ 50
+│  │  │  └─ 9c92084ceaa8186ea2314741abc376e5944501
+│  │  ├─ 53
+│  │  │  └─ 2e294d3628ab770468140fbe0c38242ab809c1
+│  │  ├─ 61
+│  │  │  └─ 2b803f5837b24a8283d0cf9c3b9ed2942cccae
+│  │  ├─ 62
+│  │  │  └─ e0b2ad4425c1c69f027e756a1040ceee1a243d
+│  │  ├─ 63
+│  │  │  └─ 9a6a1716ded5e2ce5fa143550d0806f6b425d0
+│  │  ├─ 67
+│  │  │  └─ 87fb724f0b0086a5fee4b9d7390564df58ae39
+│  │  ├─ 6a
+│  │  │  └─ c2d3fc4b66cdf223d42145562914024fbbdba8
+│  │  ├─ 8c
+│  │  │  └─ 52cbbbeef5228b30e5e927209a12434d3d236c
+│  │  ├─ 8e
+│  │  │  └─ d88066381f4477283099bd75383b2b967b3f36
+│  │  ├─ 90
+│  │  │  └─ 3268c8fdc9bda36fdae90c8f7a1dc7742b38a8
+│  │  ├─ 92
+│  │  │  └─ 03dc321f5866cf313a98700a8742666fb5871a
+│  │  ├─ ab
+│  │  │  └─ 818f3f34cd8e558ce1c80d23db8dc8cf70705a
+│  │  ├─ ac
+│  │  │  └─ 3a5eeaf4322e55e2b1a81570b2c1b90da2da4f
+│  │  ├─ b9
+│  │  │  └─ abbe502784722863c369dc7269cff69314854b
+│  │  ├─ bb
+│  │  │  └─ 715e280069d74803ef31dfcbf12ac997a33693
+│  │  ├─ c3
+│  │  │  └─ a836a6abce35d0eaad5e5b1cc7e355b010f4cf
+│  │  ├─ cd
+│  │  │  ├─ a69bf84856096aa2488d4101a4c62bbcdd4dfe
+│  │  │  └─ a75da299cb755a0c01f5d975bf22ed2e495d22
+│  │  ├─ cf
+│  │  │  └─ 4b61ea7456df70f8a88ba57b5524f051f141cb
+│  │  ├─ d0
+│  │  │  └─ f93f4ea2d583abe7ef870565b9355dc7f96bcc
+│  │  ├─ d6
+│  │  │  └─ 2d557603de7e45ea187d2e20ae81187c23bf0c
+│  │  ├─ e0
+│  │  │  └─ a34223239903db73a99eaea6fc5fb0fa589f89
+│  │  ├─ e1
+│  │  │  └─ 379ef1eea1a2cbc5a54ebaae5f2464c2f6fa80
+│  │  ├─ e4
+│  │  │  └─ 12560026d3c2574f195d33ef2008efea85247d
+│  │  ├─ e6
+│  │  │  └─ 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+│  │  ├─ ed
+│  │  │  └─ 5063f18557b81c18a99631981214a0ab5fbc62
+│  │  ├─ f2
+│  │  │  └─ 5b381e2063e67e390362b4dbde4866ffe0caf8
+│  │  ├─ fb
+│  │  │  └─ 54a6549b2c510f7d04c23083bc26fd5b6b6871
+│  │  ├─ info
+│  │  └─ pack
+│  ├─ ORIG_HEAD
+│  └─ refs
+│     ├─ heads
+│     │  └─ main
+│     ├─ remotes
+│     │  └─ origin
+│     │     └─ main
+│     └─ tags
+├─ assignment_files
+│  ├─ assignment_files.zip
+│  ├─ Assignment_for_the_Professional_Services_Software_position..pdf
+│  └─ Sql_task
+│     ├─ dvdrental.tar
+│     ├─ dvdrental.zip
+│     └─ SQL report.txt
+├─ credentials.txt
+├─ customer_import.csv
+├─ notebooks
+│  ├─ extract.ipynb
+│  ├─ interact.ipynb
+│  ├─ task1.ipynb
+│  └─ testing.ipynb
+├─ project
+│  ├─ configs.py
+│  ├─ dto
+│  │  ├─ candidate_dto.py
+│  │  ├─ candidate_response.py
+│  │  └─ jobs_dto.py
+│  ├─ initialize.py
+│  ├─ logs
+│  │  ├─ customer_2024-01-31_14-53-12.log
+│  │  ├─ customer_2024-01-31_15-07-43.log
+│  │  ├─ customer_2024-01-31_15-08-45.log
+│  │  ├─ logging_config.py
+│  │  └─ __pycache__
+│  │     └─ logging_config.cpython-310.pyc
+│  ├─ main_script.py
+│  ├─ properties.py
+│  └─ __pycache__
+│     ├─ configs.cpython-310.pyc
+│     ├─ initialize.cpython-310.pyc
+│     └─ logging_config.cpython-310.pyc
+├─ project-hierarchy.txt
+└─ README.md
