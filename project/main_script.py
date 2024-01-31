@@ -15,7 +15,7 @@ def csv_to_dict_list(file_path):
     except Exception as e:
         logging.error(f"Error reading CSV file: {e}")
         return []
-# 
+
 # Process each row of data
 def process_data(data):
     for row in data:
