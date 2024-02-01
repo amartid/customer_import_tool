@@ -50,6 +50,7 @@ Tool for importing candidate data from CSV into Workable. Features include email
 ### Installation
 
 - Place the Python script containing the provided code in your working directory.
+- Place the .csv file customer_import.csv in Path('project/customer_import.csv')
 - Open a terminal or command prompt.
 - Run the script by executing the following command:
 - python main_script.py

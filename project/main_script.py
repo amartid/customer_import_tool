@@ -197,7 +197,7 @@ def main():
     logging.info('Script started')
 
     # Read CSV file and process data
-    file_path = Path('customer_import.csv')
+    file_path = Path('project/customer_import.csv')
     logging.info('Starting data import...')
     print('Starting data import...')
 
