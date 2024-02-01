@@ -1,8 +1,9 @@
 import json
+from typing import Dict, List
 
 # Define the CandidateDTO class
 class CandidateDTO:
-    def __init__(self, name, email, phone, address, job, domain, disqualified, sourced):
+    def __init__(self, name: str, email: str, phone: str, address: str, job: Dict, domain: str, disqualified: bool, sourced: bool) -> None:
         self.name = name
         self.email = email
         self.phone = phone
@@ -13,16 +14,17 @@ class CandidateDTO:
         self.sourced = sourced # To prevent email notifications
     
     # Getter method for job
-    def get_job(self):
+    def get_job(self) -> Dict:
         return self.job
 
     # Getter method for shortcode
-    def get_shortcode(self):
+    def get_shortcode(self) -> str:
         if 'shortcode' in self.job:
             return self.job['shortcode']
         else:
             return None
-    def to_json(self):
+        
+    def to_json(self) -> str:
         """
         Convert the CandidateDTO object to JSON format.
         """
